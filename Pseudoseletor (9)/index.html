@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Folha de saldo</title>
+  <link rel="shortcut icon" href="/Pseudoseletor (9)/favicon/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section>
+    <h1>
+      <span class="flex">
+        <span>DeVini</span>
+        <span>Balanço Patrimonial</span>
+      </span>
+    </h1>
+    <!--Você quer que esse elemento específico esteja escondido dos leitores de tela, então dê a ele o atributo aria-hidden definido como true-->
+    <div id="years" aria-hidden="true">
+      <span class="year">2019</span>
+      <span class="year">2020</span>
+      <span class="year">2021</span>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <caption>Ativos</caption>
+        <thead>
+          <tr>
+            <td></td>
+            <th>
+              <span class="sr-only year">2019</span>
+            </th>
+            <th>
+              <span class="sr-only year">2020</span>
+            </th>
+            <th class="current">
+              <span class="sr-only year">2021</span>
+            </th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr class="data">
+            <th>Dinheiro 
+              <span class="description">Este é o dinheiro que temos atualmente em mãos</span>
+            </th>
+            <td>R$25</td>
+            <td>R$30</td>
+            <td class="current">R$28</td>
+          </tr>
+
+          <tr class="data">
+            <th> Verificando
+              <span class="description">Nossa conta transicional primária</span>
+            </th>
+            <td>R$54</td>
+            <td>R$56</td>
+            <td class="current">R$53</td>
+          </tr>
+          <tr class="data">
+            <th> Poupança
+              <span class="description">Fundos resevados pra emergências</span>
+            </th>
+            <td>R$500</td>
+            <td>R$650</td>
+            <td class="current">R$728</td>
+          </tr>
+          <tr class="total">
+            <th>Total
+              <span class="sr-olny">Ativos</span>
+            </th>
+            <td>R$579</td>
+            <td>R$736</td>
+            <td class="current">R$809</td>
+          </tr>
+        </tbody>
+
+      </table>
+         
+      <table>
+        <caption>Passivos</caption>
+        <thead>
+          <tr>
+            <td></td>
+            <th>
+              <span class="sr-only">2019</span>
+            </th>
+            <th>
+              <span class="sr-only">2020</span>
+            </th>
+            <th>
+              <span class="sr-only">2021</span>
+            </th>
+          </tr>
+        </thead>
+        
+        <tbody>
+          <tr class="data">
+            <th> Empréstimo
+              <span class="description">O saldo devedor do nosso empréstimo inicial</span>
+            </th>
+            <td>R$500</td>
+            <td>R$250</td>
+            <td class="current">R$0</td>
+          </tr>
+
+          <tr class="data">
+            <th> Despesas
+              <span class="description">Despesas anuais atencipadas, como folha de pagamento</span>
+            </th>
+            <td>R$200</td>
+            <td>R$300</td>
+            <td class="current">R$400</td>
+          </tr>
+
+          <tr class="data">
+            <th> Crédito
+              <span class="description">O saldo devedor do nosso cartão de crédito</span>
+            </th>
+            <td>R$50</td>
+            <td>R$50</td>
+            <td class="current">R$75</td>
+          </tr>
+
+          <tr class="total">
+            <th> Total
+              <span class="sr-only">Passivos</span>
+            </th>
+            <td>R$750</td>
+            <td>R$600</td>
+            <td class="current">R$475</td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <table>
+        <caption>Patrimônio Líquido</caption>
+        <thead>
+          <tr>
+            <td></td>
+            <th>
+              <span class="sr-only">2019</span>
+            </th>
+            <th>
+              <span class="sr-only">2020</span>
+            </th>
+            <th>
+              <span class="sr-only">2021</span>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="total">
+            <th>Total de 
+              <span class="sr-only">Patrimônio Líquido</span>
+            </th>
+            <td>R$-171</td>
+            <td>R$136</td>
+            <td class="current">R$334</td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+  </section>
+  <main></main>
+</body>
+</html>

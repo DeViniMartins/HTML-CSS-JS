@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Dancing+Script:wght@500&family=Inspiration&family=Merienda:wght@400;700&display=swap');
+
+body {
+  max-width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  background: linear-gradient(45deg, hsl(210, 100%, 40%), hsl(260, 100%, 70%), hsl(210, 100%, 20%));
+  color: #f5f6f7;
+  font-family: 'Annie Use Your Telescope', cursive;
+}
+
+h1 {
+  text-align: center;
+}
+
+.sexo {
+  margin-top: -23px;
+  margin-bottom: 50px;
+}
+
+form {
+  max-width: 500px;
+  min-width: 300px;
+  width: 60vw;
+  margin: 0 auto;
+}
+
+fieldset {
+  border: none;
+  border-bottom: 3px solid;
+}
+
+fieldset:last-of-type{
+  margin-top: 3rem;
+}
+
+.inline {
+  width: unset;
+  display: inline-flex;
+  margin: 0 0.2em 0 0;
+}
+
+.woman {
+  padding-top: 0.7em;
+  font-size: 20px;
+}
+
+.pussy {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  font-size: 20px;
+}
+
+label {
+  display: inline-block;
+  margin: 0.5em 0.5em;
+  width: 100%;
+}
+
+input, textarea, select {
+  width:100%;
+  margin: 10px 0 0 0;
+}
+
+input {
+  border: 1px solid black;
+}
+
+.p10{
+  margin-top: -5em;
+}
+
+#comments {
+  background: linear-gradient(45deg, hsl(210, 100%, 40%), hsl(260, 100%, 70%), hsl(210, 100%, 20%));
+}
+
+input[type="submit"]{
+  display: block;
+  width: 60%;
+  margin: 20px auto;
+  margin-bottom: 100px;
+}
+
+submit:active {
+  transform: scale(1);
+}
+
+textarea::placeholder {
+  color: white;
+}

@@ -1,0 +1,85 @@
+body {
+  background: linear-gradient(-49deg, black 20%, gray 30%, rgb(255, 0, 179));
+  height: 100vh;
+  font-family: sans-serif;
+  padding: 25px;
+}
+
+h1, h2, p {
+  text-align: center;
+  color: white;
+}
+
+h1, h2 {
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.shape {
+  margin-top: 10px;
+}
+
+.sex {
+  margin-top: -45px;
+  margin-left: 120px;
+  color: rgb(255, 0, 179);
+}
+
+.established {
+  font-style: italic;
+  margin-bottom: -7px;
+}
+
+.menu {
+  width:30%;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px 50px;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+hr {
+  height: 2px;
+  background-color:  rgb(255, 0, 179);
+  border-color: rgb(255, 0, 179);
+}
+
+.bottom-line {
+  margin-top: -2px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -25px;
+}
+
+.item p {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.produto, .kiss {
+  text-align: left;
+  width: 76%;
+}
+
+.price {
+  text-align: right;
+  width: 24%;
+}
+
+#price-color {
+  color:rgb(255, 0, 179);
+}

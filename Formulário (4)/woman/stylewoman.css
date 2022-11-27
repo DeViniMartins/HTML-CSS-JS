@@ -1,0 +1,90 @@
+body {
+  max-width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  background: linear-gradient(45deg, hsl(360, 100%, 40%), hsl(330, 100%, 40%), hsl(360, 100%, 70%));
+  color: #f5f6f7;
+  font-family: monospace;
+}
+
+h1 {
+  text-align: center;
+}
+
+.sexo {
+  margin-top: -23px;
+  margin-bottom: 50px;
+}
+
+form {
+  max-width: 500px;
+  min-width: 300px;
+  width: 60vw;
+  margin: 0 auto;
+}
+
+fieldset {
+  border: none;
+  border-bottom: 3px solid;
+}
+
+fieldset:last-of-type{
+  margin-top: 3rem;
+}
+
+.inline {
+  width: unset;
+  display: inline-flex;
+  margin: 0 0.2em 0 0;
+}
+
+.man {
+  padding-top: 0.7em;
+  font-size: 20px;
+}
+
+.dick {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  font-size: 20px;
+}
+
+label {
+  display: inline-block;
+  margin: 0.5em 0.5em;
+  width: 100%;
+}
+
+input, textarea, select {
+  width:100%;
+  margin: 10px 0 0 0;
+}
+
+input {
+  border: 1px solid black;
+}
+
+textarea {
+  color: white;
+}
+
+#comments {
+  background: linear-gradient(45deg, hsl(360, 100%, 40%), hsl(330, 100%, 40%), hsl(360, 100%, 70%));
+  background-color: black;
+  color: beige;
+}
+
+.p10{
+  margin-top: -5em;
+}
+
+input[type="submit"]{
+  display: block;
+  width: 60%;
+  margin: 20px auto;
+  margin-bottom: 100px;
+}
+
+textarea::placeholder {
+  color: white;
+}

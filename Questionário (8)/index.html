@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Quiz</title>
+</head>
+<body>
+
+  <header>
+    <img id="logo" src="../Questionário (8)/logo/photo[2954].jpg" alt="baixaria total">
+    <h1> Quiz do Baixaria</h1>
+    <nav>
+      <ul>
+        <li><a href="../Formulário (4)/man.html" target="_blank">Homem</a></li>
+        <li><a href="../Formulário (4)/woman.html" target="_blank">Mulher</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <form action="">
+      <section role="region" aria-labelledby="Informações">
+        <h2 id="informações">Informações</h2>
+        <div class="info">
+          <label for="name"> Nome Social:
+            <input id="name" type="text" name="nome-social">
+          </label>
+        </div>
+        <div class="info">
+          <label for="date"> D.O.B.:
+            <span class="lt-only">(Date of Birth)</span>
+            <input id="date" type="date" name="d.b.o"> 
+          </label>
+        </div>
+        <div class="info">
+          <label for="idade"> Idade:
+            <input id="idade" type="number" name="idade" min="18" max="100"> 
+          </label>
+        </div>
+      </section>
+
+      <section role="region" aria-labelledby="lugares">
+        <h2 id="lugares">Lugares</h2>
+        <div class="question-block">
+          <p class="pq">1</p>
+          <fieldset class="question1" >
+            <ul>
+              <li>
+                <input type="radio" name="q1"> Praia 
+              </li>
+              <li>
+                <input type="radio" name="q1"> Cachoeira
+              </li>
+            </ul>
+          </fieldset>
+          <p class="pq">2</p>
+          <fieldset class="question2" >
+            <ul>
+              <li>
+                <input type="radio" name="q2"> RJ (Rio de Janeiro)
+              </li>
+              <li>
+                <input type="radio" name="q2"> SP (São Paulo)
+              </li>
+            </ul>
+          </fieldset>
+          <p class="pq">3</p>
+          <fieldset class="question3">
+            <ul>
+              <li>
+                <input type="radio" name="q3"> Fortal (Fortaleza)
+              </li>
+              <li>
+                <input type="radio" name="q3"> RS (Rio Grande do Sul)
+              </li>
+            </ul>
+          </fieldset>
+          <p class="pq">4</p>
+          <fieldset class="question4" >
+            <ul>
+              <li>
+                <input type="radio" name="q4"> Motel 
+              </li>
+              <li>
+                <input type="radio" name="q4"> Airbnb
+              </li>
+            </ul>
+          </fieldset>
+          <p class="pq">5</p>
+          <fieldset class="question5">
+            <ul>
+              <li>
+                <input type="radio" name="q5"> Casa de Praia 
+              </li>
+              <li>
+                <input type="radio" name="q5"> Casa de Campo
+              </li>
+            </ul>
+          </fieldset>
+          <p class="pq">6</p>
+          <fieldset class="question6">
+            <ul>
+              <li>
+                <input type="radio" name="q6"> Barzinho 
+              </li>
+              <li>
+                <input type="radio" name="q6"> Balada
+              </li>
+            </ul>
+          </fieldset>
+        </div>
+      </section>
+
+      <section role="region" aria-labelledby="sugestões">
+        <h2 id="justornot">Já ou não? (transou)</h2>
+        <div class="ja">
+          <label for="Cozinha">
+            <input type="checkbox" name="Cozinha" id="Cozinha"> Cozinha
+          </label>
+          <label for="Varanda">
+            <input type="checkbox" name="Varanda" id="Varanda"> Varanda
+          </label>
+          <label for="Piscina">
+            <input type="checkbox" name="Piscina" id="Piscina"> Piscina
+          </label>
+          <label for="Praia">
+            <input type="checkbox" name="Praia" id="Praia"> Praia
+          </label>
+          <label for="cachoeira">
+            <input type="checkbox" name="cachoeira" id="cachoeira"> Cachoeira
+          </label>
+          <label for="trilha">
+            <input type="checkbox" name="trilha" id="trilha"> Trilha
+          </label>
+          <label for="rua">
+            <input type="checkbox" name="rua" id="rua"> Na Rua 
+          </label>
+          <label for="balada">
+            <input type="checkbox" name="balada" id="balada"> Balada 
+          </label>
+          <label for="motel">
+            <input type="checkbox" name="motel" id="mote"> Motel 
+          </label>
+          <label for="cinema">
+            <input type="checkbox" name="cinema" id="cinema"> Cinema
+          </label>
+          <label for="trabalho">
+            <input type="checkbox" name="trabalho" id="trabalho"> Trabalho 
+          </label>
+          <label for="carro">
+            <input type="checkbox" name="carro" id="carro"> Carro 
+          </label>
+          <label for="garagem">
+            <input type="checkbox" name="garagem" id="garagem"> Garagem 
+          </label>
+          <label for="onibus">
+            <input type="checkbox" name="onibusv" id="onibus"> Ônibus de Viagem 
+          </label>
+          <label for="avião">
+            <input type="checkbox" name="avião" id="avião"> Avião
+          </label>
+          <label for="carnaval">
+            <input type="checkbox" name="carnaval" id="carnaval"> Carnaval 
+          </label>
+          <label for="escola">
+            <input type="checkbox" name="escola" id="escola"> Escola/Curso
+          </label>
+          <label for="faculdade">
+            <input type="checkbox" name="faculdade" id="faculdade"> Faculdade
+          </label>
+        </div>
+        <div>
+          <p> Escreva os lugares que faltou pra você</p>
+          <textarea name="sugts" id="sugts" rows="5" cols="55"></textarea> 
+        </div>
+        
+      </section>
+
+      <button type="submit">Submit</button>
+
+    </form>
+  </main>
+
+</body>
+</html>
